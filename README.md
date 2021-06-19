@@ -43,9 +43,9 @@ The functionalities for the Single Page App will be supported by an API that wil
 
 
 				Layer 3 diagram of the C4 Model
-![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1623988884/platzily/c3.jpg)
-![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1623987987/platzily/sequence1.png)
-![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1624061530/platzily/secuencia2.png)
+![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623988884/platzily/c3.jpg)
+![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623987987/platzily/sequence1.png)
+![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1624061530/platzily/secuencia2.png)
 
 ## Drawbacks
 
@@ -57,32 +57,11 @@ on the integration of this change with other existing and planned features etc.
 
 ## Rationale and Alternatives
 
-> Why is this design the best in the space of possible designs?
+### What is the impact of not doing this?
 
-> What other designs have been considered and what is the rationale for not choosing them?
-
-> What is the impact of not doing this?
-
-Sin un sistema de usuarios, no seria posible manejar estadisticas, administrar las campañas y links. 
-
-
-
-## Prior Art
-
-Discuss prior art, both the good and the bad, in relation to this proposal. A few examples of what this can include are:
-
-> How other services / infrastructures in the same domain have solved this problem.
-
-> Are there any published papers or great posts that discuss this? If you have some relevant papers to refer to, this can serve as a more detailed theoretical background.
-
-This section is intended to encourage you as an author to think about the lessons from other organisations, provide readers of your RFC with a fuller picture. If there is no prior art, that is fine - your ideas are interesting whether they are brand new or if it is an adaptation from other services.
+Without a user system, it would not be possible to manage statistics, manage campaigns and links.
 
 ## Unresolved questions
 
-> What parts of the design do you expect to resolve through the RFC process before this gets merged?
-
-> What parts of the design do you expect to resolve through the implementation of this feature before stabilisation?
-
-> What related issues do you consider out of scope for this RFC that could be addressed in the future independently of the solution that comes out of this RFC?
-
-No resolvemos creación de campañas, autenticación de los usuarios. 
+###  What related issues do you consider out of scope for this RFC that could be addressed in the future independently of the solution that comes out of this RFC?
+This RFC does not address campaign creation and user authentication.
