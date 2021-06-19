@@ -11,7 +11,7 @@
 
 #### Why are we doing this? 
 
-Because we want to learn to develop projects made up of several development teams that work sharing information and services and at the same time being independent. Applying architecture design tools such as the ** C4 Model ** and the ** CAP Theorem ** to visualize the layers, interactions, information flows and land the business logic in technologies.
+Because we want to learn to develop projects made up of several development teams that work sharing information and services and at the same time being independent. Applying architecture design tools such as the **C4 Model** and the **CAP Theorem** to visualize the layers, interactions, information flows and land the business logic in technologies.
 
 ####  What use cases does it support? 
 
@@ -29,14 +29,14 @@ Offer a functional service, consistent and independent service from other servic
 
 ## Design Detail
 
-User service is limited by a domain that includes the ** user ** and ** campaigns ** entities, as well as the use cases that these entities may have with external services such as the creation of links by a user and the possibility of associating a link to an already created campaign.
+User service is limited by a domain that includes the **user** and **campaigns** entities, as well as the use cases that these entities may have with external services such as the creation of links by a user and the possibility of associating a link to an already created campaign.
 
-				Layer 1 diagram of the C4 Model
+				Diagram Domain
 ![Diagrama de Dominio](https://res.cloudinary.com/dahid6yzj/image/upload/v1623981385/platzily/diagrama1.jpg)
 
 The user architecture in a global vision will be composed of a Single Page App that will be in charge of delivering the necessary UI for the user to access the registration and login flow to later redirect it to their management dashboard.
 
-The functionalities for the Single Page App will be supported by an API that will store and consult the information about the users from a database of the user service environment. However, to create links and associate them with a campaign, external services such as ** Statistics **, ** Core ** and ** Link ** will be used.
+The functionalities for the Single Page App will be supported by an API that will store and consult the information about the users from a database of the user service environment. However, to create links and associate them with a campaign, external services such as **Statistics**, **Core** and **Link** will be used.
 
 				Layer 2 diagram of the C4 Model
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1624064175/platzily/c2.png)								
