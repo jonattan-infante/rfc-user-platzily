@@ -39,11 +39,13 @@ The user architecture in a global vision will be composed of a Single Page App t
 The functionalities for the Single Page App will be supported by an API that will store and consult the information about the users from a database of the user service environment. However, to create links and associate them with a campaign, external services such as ** Statistics **, ** Core ** and ** Link ** will be used.
 
 				Layer 2 diagram of the C4 Model
-![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623982530/platzily/c1.jpg)								
+![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1624064175/platzily/c2.png)								
 
 
 				Layer 3 diagram of the C4 Model
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1624063759/platzily/c3.png)
+
+### Flows
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623987987/platzily/sequence1.png)
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1624061530/platzily/secuencia2.png)
 
