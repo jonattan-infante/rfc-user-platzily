@@ -43,17 +43,9 @@ The functionalities for the Single Page App will be supported by an API that wil
 
 
 				Layer 3 diagram of the C4 Model
-![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623988884/platzily/c3.jpg)
+![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/v1624063759/platzily/c3.png)
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1623987987/platzily/sequence1.png)
 ![enter image description here](https://res.cloudinary.com/dahid6yzj/image/upload/c_scale,w_577/v1624061530/platzily/secuencia2.png)
-
-## Drawbacks
-
-> Why should we *not* do this? Please consider the impact on users,
-on the integration of this change with other existing and planned features etc.
-
-> There are tradeoffs to choosing any path, please attempt to identify them here.
-> Consistencia y disponibilidad
 
 ## Rationale and Alternatives
 
@@ -64,4 +56,5 @@ Without a user system, it would not be possible to manage statistics, manage cam
 ## Unresolved questions
 
 ###  What related issues do you consider out of scope for this RFC that could be addressed in the future independently of the solution that comes out of this RFC?
+
 This RFC does not address campaign creation and user authentication.
